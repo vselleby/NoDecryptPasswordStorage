@@ -1,2 +1,2 @@
 # NoDecryptPasswordStorage
-WIP: An "encrypt only" password storage
+WIP: An "encrypt only" password storage. Allows user to store a base password/salt in a remote database. The base password is then concatinated with a master password and then hashed using __to be determined__ one-way-hash function. This allows the user to have different and cryptographically strong passwords for every service without ever having to expose their master password.  
